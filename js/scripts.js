@@ -9,9 +9,11 @@ $(document).ready(function() {
 
     if (question2 === "Big title triple-A video games") {
       $("#Csharp").show();
-    } else if (question2 === "Interactive and engaging web pages") {
+    } else if (question2 === "Interactive and engaging web pages" || question3 === "A tiny bit") {
       $("#JavaScript").show();
-    } else if (question2 === "I'm not really sure yet") {
+    } else if (question2 === "I'm not really sure yet" || question3 === "No, none") {
+      $("#Python").show();
+    } else if (question4 === "Dogs are boring, I like snakes") {
       $("#Python").show();
     } else if (question2 === "Challenging nitty-gritty, low-level code") {
       $("#Rust").show();
