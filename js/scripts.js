@@ -7,5 +7,17 @@ $(document).ready(function() {
     const question5 = $("select#question5").val();
     const question6 = $("select#question6").val();
 
+    if (question2 === "Big title triple-A video games") {
+      $("#Csharp").show();
+    } else if (question2 === "Interactive and engaging web pages") {
+      $("#JavaScript").show();
+    } else if (question2 === "I'm not really sure yet") {
+      $("#Python").show();
+    } else if (question2 === "Challenging nitty-gritty, low-level code") {
+      $("#Rust").show();
+    } else {
+      $("#Python").show();
+    }
+    event.preventDefault();
   })
 })
