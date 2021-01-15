@@ -4,7 +4,6 @@ $(document).ready(function() {
     const question4 = $("select#question4").val();
 
 // the following variables have still been declared, even though their value is never read
-
     const question1 = $("select#question1").val();
     const question3 = $("select#question3").val();
     const question5 = $("select#question5").val();
