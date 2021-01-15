@@ -1,39 +1,34 @@
-# _{Application Name}_
+# _Programming Language Suggester_
 
-#### _{Brief description of application}_
+#### _Answer some questions to figure out which programming language to start learning!_
 
-#### By _**{List of contributors}**_
+#### By _**Louie Schoenknecht**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _JavaScript_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This page was created for my week 2 individual coding project at Epicodus. The page prompts the user to respond to a number of questions about their interest in coding, as well as some other questions just for run. Then, using branching, the page tells the user which coding language is the best fit for them!_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _To clone down and open the project, clone the prog-lang repository from GitHub._
+* _Navigate to root directory of project in terminal, and type 'open index.html' to view in browser._
+* _Open project in a text editor to view code._
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs or issues_
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_[MIT](https://choosealicense.com/licenses/mit/)_
+_Copyright (c) 2021_
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_luisesch97@gmail.com_
