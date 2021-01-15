@@ -2,6 +2,16 @@
   display: none;
 }
 
+body {
+  text-align: center;
+  background: url(https://wallpapercave.com/wp/X9cUy04.jpg);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.664);
+}
+
 .row {
   margin: 30px;
 }
