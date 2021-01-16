@@ -15,6 +15,10 @@
     <p>Hey there! So you want to learn programming, huh? Finding a place to get started in your journey can seem very daunting at first. I know what you're thinking: <em>"There are so many options! What the hell is a JavaScript, and why would I mess with Python? I hate snakes!"</em> Thankfully, my team of experts created this page for people like you, to help guide you on your journey in programming. Just answer a few simple questions below, and in a few clicks you will know exactly where to start!</p>
     <h3>Ready? Answer the questions below.</h3>
     <form id="questions">
+      <div class="form">
+        <label for="name">Enter your name:</label>
+        <input id="name" class="form-control" type="text">
+      </div>
       <div class="row">
         <label for="question1">Why do you want to learn programming?</label>
         <select id="question1">
@@ -78,21 +82,24 @@
       </div>
       <button type="submit" class="btn btn-dark">Show my results</button>
     </form>
-    <div id='Csharp'>
-      <h3>C#</h3>
-      <p>C# can be used to create almost anything but is particularly strong at building Windows desktop applications and games. C# is widely-used to create games using the Unity game engine, which is the most popular game engine today. More than a third of top games are made with Unity, and there are approximately 770 million active users of games created using the Unity engine.</p>
-    </div>
-    <div id='JavaScript'>
-      <h3>JavaScript</h3>
-      <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.</p>
-    </div>
-    <div id='Python'>
-      <h3>Python</h3>
-      <p>Not sure what to go with, or simply like snakes? Try Python! Python is a general-purpose coding language—which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development. That includes back end development, software development, data science and writing system scripts among other things.</p>
-    </div>
-    <div id='Rust'>
-      <h3>Rust</h3>
-      <p>With direct access to hardware and memory, Rust is an ideal language for embedded and bare-metal development. You can write extremely low-level code, such as operating system kernels or microcontroller applications.</p>
+    
+    <div class="result">
+      <div id='Csharp'>
+        <h3>C#</h3>
+        <p>Hey <span class="name"></span>, looks like your language of choice is C#! C# can be used to create almost anything, but is particularly strong at building Windows desktop applications and games. C# is widely-used to create games using the Unity game engine, which is the most popular game engine today. More than a third of top games are made with Unity, and there are approximately 770 million active users of games created using the Unity engine.</p>
+      </div>
+      <div id='JavaScript'>
+        <h3>JavaScript</h3>
+        <p>Hey <span class="name"></span>, looks like your language of choice is JavaScript! JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.</p>
+      </div>
+      <div id='Python'>
+        <h3>Python</h3>
+        <p><p>Hey there <span class="name"></span>! Not sure what to go with, or simply like snakes? Try Python! Python is a general-purpose coding language—which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development. That includes back end development, software development, data science and writing system scripts among other things.</p>
+      </div>
+      <div id='Rust'>
+        <h3>Rust</h3>
+        <p><p>Hey <span class="name"></span>, looks like your language of choice is Rust! With direct access to hardware and memory, Rust is an ideal language for embedded and bare-metal development. You can write extremely low-level code, such as operating system kernels or microcontroller applications.</p>
+      </div>
     </div>
   </div>
 </body>

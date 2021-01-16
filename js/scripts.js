@@ -2,12 +2,15 @@ $(document).ready(function() {
   $("form#questions").submit(function(event) {
     const question2 = $("select#question2").val();
     const question4 = $("select#question4").val();
+    const nameInput = $("input#name").val();
 
 // the following variables have still been declared, even though their value is never read
     const question1 = $("select#question1").val();
     const question3 = $("select#question3").val();
     const question5 = $("select#question5").val();
     const question6 = $("select#question6").val();
+
+    $(".name").text(nameInput);
 
     if (question2 === "Big title triple-A video games") {
       $("#Csharp").show();
