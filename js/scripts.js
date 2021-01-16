@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     $(".name").text(nameInput);
 
-    if (question2 === "Big title triple-A video games") {
+    if (question2 === "Big triple-A title video games") {
       $("#Csharp").show();
     } else if (question2 === "Interactive and engaging web pages") {
       $("#JavaScript").show();
