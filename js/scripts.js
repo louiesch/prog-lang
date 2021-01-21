@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
+    $("#Csharp, #JavaScript, #Python, #Rust").hide();
     const question2 = $("select#question2").val();
     const question4 = $("select#question4").val();
     const nameInput = $("input#name").val();
@@ -26,5 +27,5 @@ $(document).ready(function() {
       $("#Python").show();
     }
     event.preventDefault();
-  })
-})
+  });
+});
